@@ -1,0 +1,21 @@
+.intro {
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+}
+
+.intro_title {
+    font-size: var(--title-size);
+    font-weight: var(--title-weight);
+    margin-bottom: 1.5rem;
+}
+
+.intro_subtitle {
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+.highlight {
+    color: var(--secondary-color)
+}
+

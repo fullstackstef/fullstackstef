@@ -1,0 +1,32 @@
+.wrapper {
+    font-size: 0.875rem;
+}
+
+.inner_wrapper {
+    font-size: 0.875rem;
+    margin-bottom: 1.5rem;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-family: Inter;
+    margin-bottom: 0.5rem;
+}
+
+.link {
+    color: var(--secondary-color);
+}
+
+.dash {
+    margin: 0 0.5rem;
+}
+
+.task_item {
+    display: flex;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+}
+
+.task_item span {
+    margin-left: 1rem;
+}

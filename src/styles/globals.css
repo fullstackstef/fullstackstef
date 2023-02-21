@@ -38,6 +38,21 @@
   --callout-border-rgb: 172, 175, 176;
   --card-rgb: 180, 185, 188;
   --card-border-rgb: 131, 134, 135;
+
+  /* Fullstacksted edits */
+  /* --primary-color: #512323; */
+  --primary-color: #011627;
+  --secondary-color: #82aaff;
+  --glow-color: #22da6e;
+  --white: #ffffff;
+  --button-border: 3px solid var(--secondary-color);
+  --container-border-left: 10px solid var(--white);
+  --title-size: 3.25rem;
+  --title-weight: 700;
+}
+
+ul {
+  list-style: none;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -83,21 +98,37 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  font-family: 'Inter';
 }
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: var(--primary-color);
 }
 
 a {
   color: inherit;
   text-decoration: none;
+}
+
+section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+section:first-child {
+  min-height: 80vh;
+}
+
+section:last-child {
+  min-height: 80vh;
+}
+
+button {
+  border: none;
+  background-color: transparent;
 }
 
 @media (prefers-color-scheme: dark) {

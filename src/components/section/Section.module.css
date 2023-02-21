@@ -1,0 +1,14 @@
+.wrapper {
+    border-left: var(--container-border-left);
+    padding-left: 1.75rem;
+}
+
+.container {
+    display: flex;
+}
+
+.title {
+    font-size: var(--title-size);
+    font-weight: var(--title-weight);
+    margin-bottom: 1.5rem;
+}
