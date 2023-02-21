@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { Roboto_Mono } from '@next/font/google'
 
-import styles from '@/components/tabs/TabContent/TabContent.module.css'
+import styles from '@/components/tabs/tabContent/TabContent.module.css'
 
 import { TabInfo } from '@/components/tabs/Tabs.const'
 
