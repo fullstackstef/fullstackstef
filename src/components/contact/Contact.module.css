@@ -46,14 +46,15 @@
 
 @keyframes glow {
   from {
-    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px var(--glow-color),
-      0 0 40px var(--glow-color), 0 0 50px var(--glow-color),
-      0 0 60px var(--glow-color), 0 0 70px var(--glow-color);
+    box-shadow: 0 0 0.625rem #fff, 0 0 1.25rem #fff,
+      0 0 1.875rem var(--glow-color), 0 0 2.5rem var(--glow-color),
+      0 0 3.125rem var(--glow-color), 0 0 3.75rem var(--glow-color),
+      0 0 4.375rem var(--glow-color);
   }
   to {
-    box-shadow: 0 0 20px #fff, 0 0 30px var(--glow-color),
-      0 0 40px var(--glow-color), 0 0 50px var(--glow-color),
-      0 0 60px var(--glow-color), 0 0 70px var(--glow-color),
-      0 0 80px var(--glow-color);
+    box-shadow: 0 0 1.25rem #fff, 0 0 1.875rem var(--glow-color),
+      0 0 2.5rem var(--glow-color), 0 0 3.125rem var(--glow-color),
+      0 0 3.75rem var(--glow-color), 0 0 4.375rem var(--glow-color),
+      0 0 5rem var(--glow-color);
   }
 }
