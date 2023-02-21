@@ -1,6 +1,6 @@
 import { Roboto_Mono } from '@next/font/google'
 
-import styles from '@/components/Tabs/Tabs.module.css'
+import styles from '@/components/tabs/Tabs.module.css'
 import { ITab } from '@/components/tabs/Tabs.const'
 
 const robMono = Roboto_Mono({ subsets: ['latin'], weight: '500' })
