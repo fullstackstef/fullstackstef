@@ -1,6 +1,15 @@
 .container {
-  max-width: 1084px;
+  max-width: 1083px;
   margin: auto;
   display: flex;
   flex-direction: column;
+}
+
+@media (max-width: 600px) {
+  .container {
+    max-width: 330px;
+  }
+  .container {
+    flex-direction: column;
+  }
 }

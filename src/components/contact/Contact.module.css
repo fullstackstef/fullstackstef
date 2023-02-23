@@ -58,3 +58,27 @@
       0 0 5rem var(--glow-color);
   }
 }
+
+@media (max-width: 600px) {
+  .wrapper h2 {
+    font-size: var(--title-size-small);
+  }
+  .inner_wrapper {
+    margin: 1.5rem 0;
+  }
+  .status {
+    font-size: 0.875rem;
+  }
+  .text {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  .circle {
+    width: 0.875rem;
+    height: 0.875rem;
+  }
+  .contact_btn {
+    font-size: 1rem;
+    padding: 0.875rem 1rem;
+  }
+}

@@ -33,6 +33,7 @@ const Footer = () => {
             width={40}
             height={40}
             color={selectIds.includes(1) ? '#82AAFF' : '#FFFFFF'}
+            className={styles.icon}
           />
         </Link>
         <Link
@@ -45,6 +46,7 @@ const Footer = () => {
             width={40}
             height={40}
             color={selectIds.includes(2) ? '#82AAFF' : '#FFFFFF'}
+            className={styles.icon}
           />
         </Link>
         <Link
@@ -57,10 +59,11 @@ const Footer = () => {
             width={40}
             height={40}
             color={selectIds.includes(3) ? '#82AAFF' : '#FFFFFF'}
+            className={styles.icon}
           />
         </Link>
       </div>
-      <p className={robMono.className}>
+      <p className={`${robMono.className} ${styles.text}`}>
         Designed and Built by Stefan Trivuncic
       </p>
     </footer>

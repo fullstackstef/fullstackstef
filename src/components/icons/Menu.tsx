@@ -5,9 +5,9 @@ interface Props {
   className?: string
 }
 
-const ArrowRight = ({ width, height, color = '#FFFFFF', className }: Props) => {
-  const originalWidth = 16
-  const originalHeight = 18
+const Menu = ({ width, height, color = '#FFFFFF', className }: Props) => {
+  const originalWidth = 25
+  const originalHeight = 27
   return (
     <div>
       <svg
@@ -18,10 +18,13 @@ const ArrowRight = ({ width, height, color = '#FFFFFF', className }: Props) => {
         viewBox={`0 0 ${originalWidth} ${originalHeight}`}
         className={className}
       >
-        <path d="M15.066 9 .123 17.759.009.439l15.056 8.56Z" fill={color} />
+        <path
+          d="M0 0h25v3.125H0zM0 11.563h25v3.125H0zM0 23.125h25v3.125H0z"
+          fill={color}
+        />
       </svg>
     </div>
   )
 }
 
-export default ArrowRight
+export default Menu

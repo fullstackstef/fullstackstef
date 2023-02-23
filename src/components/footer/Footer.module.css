@@ -1,13 +1,26 @@
 .footer_main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem 0;
 }
 
 .social {
-    display: flex;
-    justify-content: space-evenly;
-    min-width: 500px;
-    margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  min-width: 500px;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 600px) {
+  .social {
+    min-width: 100%;
+  }
+  .icon {
+    width: 30px;
+    height: 30px;
+  }
+  .text {
+    font-size: var(--text-size-small);
+  }
 }

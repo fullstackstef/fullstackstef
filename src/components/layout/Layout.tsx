@@ -1,16 +1,20 @@
 import { ReactNode } from 'react'
 
-import Navbar from 'src/components/navbar/Navbar'
-import Footer from 'src/components/footer/Footer'
+import Navbar from '@/components/navbar/Navbar'
+import MobileNavbar from '@/components/mobileNavbar/MobileNavbar'
+import Footer from '@/components/footer/Footer'
 
+import useMediaQuery from '@/hooks/useMediaQuery'
 interface Props {
   children?: ReactNode
 }
 
 const Layout = ({ children }: Props) => {
+  const isMobile = useMediaQuery('(max-width: 600px)')
+
   return (
     <>
-      <Navbar />
+      {isMobile ? <MobileNavbar /> : <Navbar />}
       <main>{children}</main>
       <Footer />
     </>

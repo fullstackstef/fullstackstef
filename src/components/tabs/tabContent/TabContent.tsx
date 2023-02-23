@@ -48,7 +48,12 @@ const TabContent = ({ experiences, selectedTabId }: Props) => {
             <ul>
               {position.tasks.map((task) => (
                 <li key={task} className={styles.task_item}>
-                  <ArrowRight width={14} height={14} /> <span>{task}</span>
+                  <ArrowRight
+                    width={14}
+                    height={14}
+                    className={styles.arrowRight}
+                  />{' '}
+                  <span>{task}</span>
                 </li>
               ))}
             </ul>
@@ -59,8 +64,13 @@ const TabContent = ({ experiences, selectedTabId }: Props) => {
               alt={`${company} Tech Stack`}
               width={position.techStackImg.width}
               height={position.techStackImg.height}
+              className={styles.techStack}
             />
           </div>
+          {selectedExperience?.positions.length > 1 &&
+            idx !== selectedExperience?.positions.length - 1 && (
+              <hr className={styles.line} />
+            )}
         </Fragment>
       ))}
     </div>

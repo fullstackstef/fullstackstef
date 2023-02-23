@@ -9,11 +9,16 @@ interface Props {
 }
 
 const Section = ({ title, idValue, children }: Props) => {
+  const reverseColumn = idValue === 'about'
   return (
     <section id={idValue}>
       <div className={styles.wrapper}>
         <h2 className={styles.title}>{title}</h2>
-        <div className={styles.container}>{children}</div>
+        <div
+          className={`${styles.container} ${reverseColumn && styles.reverse}`}
+        >
+          {children}
+        </div>
       </div>
     </section>
   )

@@ -1,21 +1,34 @@
 .intro {
-    color: var(--secondary-color);
-    margin-bottom: 1rem;
+  color: var(--secondary-color);
+  margin-bottom: 1rem;
 }
 
 .intro_title {
-    font-size: var(--title-size);
-    font-weight: var(--title-weight);
-    margin-bottom: 1.5rem;
+  font-size: var(--title-size);
+  font-weight: var(--title-weight);
+  margin-bottom: 1.5rem;
 }
 
 .intro_subtitle {
-    font-size: 24px;
-    font-weight: normal;
-    line-height: 1.5;
+  font-size: 1.5rem;
+  font-weight: normal;
+  line-height: 1.5;
 }
 
 .highlight {
-    color: var(--secondary-color)
+  color: var(--secondary-color);
 }
 
+@media (max-width: 600px) {
+  .intro {
+    font-size: var(--text-size-small);
+  }
+  .intro_title {
+    font-size: var(--title-size-small);
+    font-weight: var(--title-weight);
+    margin-bottom: 1.5rem;
+  }
+  .intro_subtitle {
+    font-size: 1rem;
+  }
+}

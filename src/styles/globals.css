@@ -6,7 +6,9 @@
   --button-border: 0.188rem solid var(--secondary-color);
   --container-border-left: 0.625rem solid var(--white);
   --title-size: 3.25rem;
+  --title-size-small: 1.75rem;
   --title-weight: 700;
+  --text-size-small: 0.875rem;
 }
 
 ul {
@@ -55,4 +57,22 @@ button {
   border: none;
   background-color: transparent;
   color: inherit;
+}
+
+@media (max-width: 600px) {
+  section:first-child {
+    min-height: 0;
+    justify-content: center;
+    padding: 2rem 0;
+  }
+  section:last-child {
+    min-height: 0;
+    justify-content: center;
+    padding: 2rem 0;
+  }
+  section {
+    min-height: 0;
+    justify-content: flex-start;
+    padding-block: 2rem;
+  }
 }

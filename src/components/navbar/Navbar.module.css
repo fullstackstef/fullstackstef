@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 1200px;
+  max-width: 1322px;
   margin: auto;
   padding: 2rem 0;
 }
@@ -15,7 +15,7 @@
 
 .nav li {
   margin-right: 4rem;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .nav li:hover {

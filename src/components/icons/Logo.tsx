@@ -2,9 +2,10 @@ interface Props {
   width: number
   height: number
   color?: string
+  className?: string
 }
 
-const ArrowRight = ({ width, height, color = '#FFFFFF' }: Props) => {
+const ArrowRight = ({ width, height, color = '#FFFFFF', className }: Props) => {
   const originalWidth = 75
   const originalHeight = 83
   return (
@@ -15,6 +16,7 @@ const ArrowRight = ({ width, height, color = '#FFFFFF' }: Props) => {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         viewBox={`0 0 ${originalWidth} ${originalHeight}`}
+        className={className}
       >
         <path
           d="M14.394 4.924a3.788 3.788 0 0 1 3.788-3.788h53.03a3.788 3.788 0 1 1 0 7.576h-53.03a3.788 3.788 0 0 1-3.788-3.788Z"

@@ -4,6 +4,8 @@ import Link from 'next/link'
 
 import Logo from '@/components/icons/Logo'
 
+import useMediaQuery from '@/hooks/useMediaQuery'
+
 import styles from 'src/components/navbar/Navbar.module.css'
 
 const robMono = Roboto_Mono({ subsets: ['latin'], weight: '500' })

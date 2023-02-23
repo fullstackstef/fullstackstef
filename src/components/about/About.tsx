@@ -73,13 +73,14 @@ const About = () => {
           alt="List of technologies that Stefan Trivuncic uses"
           width={470}
           height={72}
+          className={styles.techStack}
         />
       </div>
       <Image
         src="/images/stefantrivuncic.png"
         alt="Portrait of Stefan Trivuncic"
-        width={300}
-        height={300}
+        width={200}
+        height={200}
         className={styles.portrait}
       />
     </Section>

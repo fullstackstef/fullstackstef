@@ -1,8 +1,17 @@
 .section_left {
-    display: flex;
-    width: 35%
+  display: flex;
+  width: 35%;
 }
 
 .section_right {
-    width: 65%;
+  width: 65%;
+}
+
+@media (max-width: 600px) {
+  .section_left {
+    width: auto;
+  }
+  .section_right {
+    width: auto;
+  }
 }
