@@ -16,7 +16,9 @@ const Hero = () => {
       <h1 className={`${styles.intro_title} ${inter.className}`}>
         Stefan Trivuncic (aka fullstackstef).
       </h1>
-      <h2 className={styles.intro_title}>I build & share things on the web.</h2>
+      <h2 className={`${styles.intro_title} ${inter.className}`}>
+        I build & share things on the web.
+      </h2>
       <p className={styles.intro_subtitle}>
         I’m a senior software developer who specializes in front end
         development, DX, and accessibility. While I’m in the process of looking
