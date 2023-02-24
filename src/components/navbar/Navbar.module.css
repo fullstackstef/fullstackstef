@@ -2,9 +2,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 1322px;
+  max-width: 1082px;
   margin: auto;
-  padding: 2rem 0;
+  padding: 2rem;
 }
 
 .nav ul {
@@ -35,4 +35,27 @@
 .navBtn:hover {
   border-color: var(--glow-color);
   color: var(--glow-color);
+}
+
+@media (min-width: 922px) {
+  .header {
+    max-width: 90%;
+  }
+  .nav li {
+    margin-right: 2rem;
+    font-size: 1.25rem;
+  }
+  .logo {
+    width: 56px;
+    height: 62px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header {
+    max-width: 1322px;
+  }
+  .nav li {
+    margin-right: 2.5rem;
+  }
 }

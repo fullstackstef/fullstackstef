@@ -1,17 +1,28 @@
 .section_left {
-  display: flex;
-  width: 35%;
+  width: auto;
 }
-
 .section_right {
-  width: 65%;
+  width: auto;
 }
 
-@media (max-width: 600px) {
+@media (min-width: 992px) {
   .section_left {
-    width: auto;
+    display: flex;
+    width: 35%;
   }
+
   .section_right {
-    width: auto;
+    width: 65%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .section_left {
+    display: flex;
+    width: 35%;
+  }
+
+  .section_right {
+    width: 65%;
   }
 }

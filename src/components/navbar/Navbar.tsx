@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <header className={styles.header}>
       <Link href="/">
-        <Logo width={75} height={83} />
+        <Logo width={75} height={83} className={styles.logo} />
       </Link>
       <nav className={`${styles.nav} ${robMono.className}`}>
         <ul>

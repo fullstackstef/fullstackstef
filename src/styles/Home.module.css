@@ -1,15 +1,12 @@
 .container {
-  max-width: 1083px;
+  max-width: 75%;
   margin: auto;
   display: flex;
   flex-direction: column;
 }
 
-@media (max-width: 600px) {
+@media (min-width: 1200px) {
   .container {
-    max-width: 330px;
-  }
-  .container {
-    flex-direction: column;
+    max-width: 1083px;
   }
 }

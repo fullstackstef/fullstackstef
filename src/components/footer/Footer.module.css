@@ -8,19 +8,40 @@
 .social {
   display: flex;
   justify-content: space-evenly;
-  min-width: 500px;
+  min-width: 400px;
   margin-bottom: 2rem;
 }
+.icon {
+  width: 32px;
+  height: 32px;
+}
+.text {
+  font-size: var(--text-size-small);
+}
 
-@media (max-width: 600px) {
+@media (min-width: 768px) {
   .social {
-    min-width: 100%;
-  }
-  .icon {
-    width: 30px;
-    height: 30px;
+    min-width: 420px;
   }
   .text {
     font-size: var(--text-size-small);
+  }
+}
+
+@media (min-width: 992px) {
+  .icon {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .social {
+    margin-bottom: 3rem;
+  }
+
+  .icon {
+    width: 40px;
+    height: 40px;
   }
 }

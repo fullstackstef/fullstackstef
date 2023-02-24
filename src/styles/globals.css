@@ -7,8 +7,12 @@
   --container-border-left: 0.625rem solid var(--white);
   --title-size: 3.25rem;
   --title-size-small: 1.75rem;
+  --title-size-medium: 2rem;
+  --title-size-large: 2.5rem;
   --title-weight: 700;
   --text-size-small: 0.875rem;
+  --text-size-medium: 1.125rem;
+  --text-size-large: 1.5rem;
 }
 
 ul {
@@ -39,18 +43,22 @@ a {
 }
 
 section {
-  min-height: 100vh;
+  min-height: 0;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
+  padding-block: 3rem;
 }
 
 section:first-child {
-  min-height: 80vh;
+  min-height: 0;
+  justify-content: center;
+  padding: 3rem 0;
 }
-
 section:last-child {
-  min-height: 80vh;
+  min-height: 0;
+  justify-content: center;
+  padding: 3rem 0;
 }
 
 button {
@@ -59,20 +67,46 @@ button {
   color: inherit;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   section:first-child {
-    min-height: 0;
-    justify-content: center;
-    padding: 2rem 0;
+    padding: 4rem 0;
   }
   section:last-child {
-    min-height: 0;
-    justify-content: center;
-    padding: 2rem 0;
+    padding: 4rem 0;
   }
   section {
-    min-height: 0;
-    justify-content: flex-start;
-    padding-block: 2rem;
+    padding-block: 4rem;
+  }
+}
+
+@media (min-width: 992px) {
+  section:first-child {
+    min-height: 85vh;
+    justify-content: center;
+    padding: 0;
+  }
+  section:last-child {
+    min-height: 85vh;
+    justify-content: center;
+    padding: 0;
+  }
+  section {
+    min-height: 100vh;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  section:first-child {
+    min-height: 85vh;
+    justify-content: center;
+  }
+  section:last-child {
+    min-height: 85vh;
+    justify-content: center;
+  }
+  section {
+    min-height: 100vh;
+    justify-content: center;
   }
 }

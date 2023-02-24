@@ -10,11 +10,13 @@ interface Props {
 }
 
 const Layout = ({ children }: Props) => {
-  const isMobile = useMediaQuery('(max-width: 600px)')
+  const small = useMediaQuery('(max-width: 576px)')
+  const medium = useMediaQuery('(max-width: 768px)')
+  const large = useMediaQuery('(max-width: 992px)')
 
   return (
     <>
-      {isMobile ? <MobileNavbar /> : <Navbar />}
+      {small || medium || large ? <MobileNavbar /> : <Navbar />}
       <main>{children}</main>
       <Footer />
     </>
