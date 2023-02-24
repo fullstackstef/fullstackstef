@@ -1,0 +1,28 @@
+.section_left {
+  width: auto;
+}
+.section_right {
+  width: auto;
+}
+
+@media (min-width: 992px) {
+  .section_left {
+    display: flex;
+    width: 35%;
+  }
+
+  .section_right {
+    width: 65%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .section_left {
+    display: flex;
+    width: 35%;
+  }
+
+  .section_right {
+    width: 65%;
+  }
+}

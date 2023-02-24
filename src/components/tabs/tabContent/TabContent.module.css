@@ -1,0 +1,64 @@
+.wrapper {
+  font-size: var(--text-size-small);
+}
+
+.inner_wrapper {
+  font-size: var(--text-size-small);
+  margin-bottom: 1.5rem;
+}
+
+.title {
+  font-size: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.link {
+  color: var(--secondary-color);
+}
+
+.dash {
+  margin: 0 0.5rem;
+}
+
+.task_item {
+  display: flex;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+
+.task_item span {
+  margin-left: 1rem;
+}
+
+.arrowRight {
+  width: 8px;
+  height: 8px;
+}
+.techStack {
+  width: 100%;
+  height: auto;
+}
+
+.line {
+  margin-block: 2rem;
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 1.25rem;
+  }
+
+  .arrowRight {
+    width: 12px;
+    height: 12px;
+  }
+  .techStack {
+    width: 75%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .title {
+    font-size: 1.5rem;
+  }
+}
