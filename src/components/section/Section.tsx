@@ -1,6 +1,9 @@
 import { ReactNode } from 'react'
+import { Inter } from '@next/font/google'
 
 import styles from 'src/components/section/Section.module.css'
+
+const inter = Inter({ subsets: ['latin'], weight: '700' })
 
 interface Props {
   title: string
@@ -13,7 +16,7 @@ const Section = ({ title, idValue, children }: Props) => {
   return (
     <section id={idValue}>
       <div className={styles.wrapper}>
-        <h2 className={styles.title}>{title}</h2>
+        <h2 className={`${styles.title} ${inter.className}`}>{title}</h2>
         <div
           className={`${styles.container} ${reverseColumn && styles.reverse}`}
         >

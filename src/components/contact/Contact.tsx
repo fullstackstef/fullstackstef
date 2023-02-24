@@ -1,14 +1,16 @@
 import { Roboto_Mono } from '@next/font/google'
+import { Inter } from '@next/font/google'
 import Link from 'next/link'
 
 import styles from '@/components/contact/Contact.module.css'
 
 const robMono = Roboto_Mono({ subsets: ['latin'], weight: '500' })
+const inter = Inter({ subsets: ['latin'], weight: '700' })
 
 const Contact = () => {
   return (
     <section className={styles.wrapper} id="contact">
-      <h2>Contact Me</h2>
+      <h2 className={inter.className}>Contact Me</h2>
       <div className={styles.inner_wrapper}>
         <div className={styles.circle}></div>
         <p className={`${styles.status} ${robMono.className}`}>

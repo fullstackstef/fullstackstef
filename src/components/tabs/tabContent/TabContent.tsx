@@ -2,6 +2,7 @@ import { Fragment } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { Roboto_Mono } from '@next/font/google'
+import { Inter } from '@next/font/google'
 
 import styles from '@/components/tabs/tabContent/TabContent.module.css'
 
@@ -10,6 +11,7 @@ import { TabInfo } from '@/components/tabs/Tabs.const'
 import ArrowRight from '@/components/icons/ArrowRight'
 
 const robMono = Roboto_Mono({ subsets: ['latin'], weight: '400' })
+const inter = Inter({ subsets: ['latin'], weight: '700' })
 
 interface Props {
   experiences: TabInfo[]
@@ -27,7 +29,7 @@ const TabContent = ({ experiences, selectedTabId }: Props) => {
     <div className={`${styles.wrapper} ${robMono.className}`}>
       {selectedExperience?.positions.map((position, idx) => (
         <Fragment key={position.id}>
-          <h3 className={styles.title}>
+          <h3 className={`${styles.title} ${inter.className}`}>
             {position.title}{' '}
             <Link href={companyURL} target="_blank" className={styles.link}>
               @ {company}
