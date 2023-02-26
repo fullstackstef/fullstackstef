@@ -4,18 +4,18 @@ import Link from 'next/link'
 
 import styles from 'src/components/footer/Footer.module.css'
 
-import Instagram from '@/components/icons/Instagram'
+import Github from '@/components/icons/Github'
 import LinkedIn from '@/components/icons/LinkedIn'
 import Twitter from '@/components/icons/Twitter'
 
 const robMono = Roboto_Mono({ subsets: ['latin'], weight: '500' })
 
 const Footer = () => {
-  const [selectIds, setSelectIds] = useState([])
+  const [selectIds, setSelectIds] = useState<number[]>([])
 
-  const handleHoverIn = (id) => setSelectIds([...selectIds, id])
+  const handleHoverIn = (id: number) => setSelectIds([...selectIds, id])
 
-  const handleHoverOut = (id) => {
+  const handleHoverOut = (id: number) => {
     const filteredIds = selectIds.filter((selectId) => selectId !== id)
     setSelectIds(filteredIds)
   }
@@ -24,12 +24,12 @@ const Footer = () => {
     <footer className={styles.footer_main}>
       <div className={styles.social}>
         <Link
-          href="https://www.instagram.com/fullstackstef/"
+          href="https://github.com/fullstackstef"
           target="_blank"
           onMouseEnter={() => handleHoverIn(1)}
           onMouseLeave={() => handleHoverOut(1)}
         >
-          <Instagram
+          <Github
             width={40}
             height={40}
             color={selectIds.includes(1) ? '#82AAFF' : '#FFFFFF'}

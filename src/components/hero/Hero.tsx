@@ -25,7 +25,7 @@ const Hero = () => {
         for my next company, I’m focused on building my startup at{' '}
         <Link
           className={styles.highlight}
-          href="https://flipkall.com"
+          href="https://www.linkedin.com/company/flipkall/"
           target="_blank"
         >
           Flipkall.
