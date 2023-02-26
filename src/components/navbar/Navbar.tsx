@@ -29,9 +29,11 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href=""
-              download="test.pdf"
-              title="stefan_trivuncic_resume.pdf"
+              href="/files/stefantrivuncic_resume.pdf"
+              download="stefantrivuncic_resume.pdf"
+              title="stefantrivuncic_resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className={styles.navBtn}
             >
               resume

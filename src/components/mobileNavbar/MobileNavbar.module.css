@@ -8,7 +8,6 @@
 }
 
 .nav_wrapper {
-  padding: 2rem;
   position: fixed;
   overflow: hidden;
   width: 100%;
@@ -19,6 +18,12 @@
   transition: left 0.3s ease-in;
   background: var(--primary-color);
   list-style: none;
+}
+
+.nav_wrapper_inner {
+  max-width: 85%;
+  margin: auto;
+  padding-top: 2rem;
 }
 
 .nav_wrapper_clicked {

@@ -32,43 +32,47 @@ const MobileNavbar = () => {
           open && styles.nav_wrapper_clicked
         }`}
       >
-        <div className={styles.nav_wrapper_header}>
-          <Link href="/" onClick={handleCloseClick}>
-            <Logo width={38} height={42} />
-          </Link>
-          <div onClick={handleOpenClick}>
-            <Close width={25} height={22} />
+        <div className={styles.nav_wrapper_inner}>
+          <div className={styles.nav_wrapper_header}>
+            <Link href="/" onClick={handleCloseClick}>
+              <Logo width={38} height={42} />
+            </Link>
+            <div onClick={handleOpenClick}>
+              <Close width={25} height={22} />
+            </div>
           </div>
+          <nav className={`${styles.nav} ${robMono.className}`}>
+            <ul>
+              <li>
+                <Link href="#about" onClick={handleCloseClick}>
+                  about
+                </Link>
+              </li>
+              <li>
+                <Link href="#experience" onClick={handleCloseClick}>
+                  experience
+                </Link>
+              </li>
+              <li>
+                <Link href="#contact" onClick={handleCloseClick}>
+                  contact
+                </Link>
+              </li>
+              <li>
+                <a
+                  href="/files/stefantrivuncic_resume.pdf"
+                  download="stefantrivuncic_resume.pdf"
+                  title="stefantrivuncic_resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.navBtn}
+                >
+                  resume
+                </a>
+              </li>
+            </ul>
+          </nav>
         </div>
-        <nav className={`${styles.nav} ${robMono.className}`}>
-          <ul>
-            <li>
-              <Link href="#about" onClick={handleCloseClick}>
-                about
-              </Link>
-            </li>
-            <li>
-              <Link href="#experience" onClick={handleCloseClick}>
-                experience
-              </Link>
-            </li>
-            <li>
-              <Link href="#contact" onClick={handleCloseClick}>
-                contact
-              </Link>
-            </li>
-            <li>
-              <a
-                href=""
-                download="test.pdf"
-                title="stefan_trivuncic_resume.pdf"
-                className={styles.navBtn}
-              >
-                resume
-              </a>
-            </li>
-          </ul>
-        </nav>
       </div>
     </header>
   )
