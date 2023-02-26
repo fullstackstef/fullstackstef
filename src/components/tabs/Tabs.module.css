@@ -10,8 +10,9 @@
 .tab {
   min-width: fit-content;
   font-size: var(--text-size-small);
-  margin: 1rem 2rem 2rem 0;
-  padding: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  margin-bottom: 2rem;
+  border-bottom: 0.188rem solid var(--border-bottom-tabs);
 }
 .selected {
   background-color: transparent;
@@ -35,9 +36,10 @@
 
   .tab {
     padding: 1rem;
-    margin: 0 0 1rem 0;
+    margin-bottom: 1rem;
     cursor: pointer;
     transition: all 0.25s;
+    border-bottom: none;
   }
 
   .selected {

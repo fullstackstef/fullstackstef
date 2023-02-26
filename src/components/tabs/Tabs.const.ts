@@ -42,7 +42,7 @@ export const tabInfo: TabInfo[] = [
                 current: false,
                 tasks: [
                     'On the Scope Squad to help ensure the internal administrative application made correct home renovation estimations that allowed for a smooth process from measurements to design.',
-                    'Engineering lead on the Labor V2 initiative to help reorganize how we categorize and display labor items for our contractors. This initiative spanned across Block’s admin tool, homeowner dashboard, and contractor mobile application.',
+                    'Engineering lead on the Labour V2 initiative to help reorganize how we categorize and display labour items for our contractors. This initiative spanned across Block’s admin tool, homeowner dashboard, and contractor mobile application.',
                     'Engineered the admin web application, homeowner dashboard web application, contractor mobile application, and backend API with TypeScript, NextJS, React, React Native, Apollo GraphQL, NodeJS, and PostgreSQL.',
                     'Led initiatives to help improve collaboration between engineers and product designers, which most recently was implementing Chromatic in the CircleCI pipeline to deploy our Storybook components.'
                 ],
@@ -140,7 +140,7 @@ export const tabInfo: TabInfo[] = [
                 current: false,
                 tasks: [
                     'Ran daily scrums with fellow developers, managed and oversight on all development projects, and mentored junior developers.',
-                    'Managed and completed my own individual full stack development projects while also assisting UX and Design Department with any technical requirements.',
+                    'Managed and completed my own individual full-stack development projects while also assisting UX and Design Department with any technical requirements.',
                     'Interacted with clients and helped them align their business goals with technical requirements.'
                 ],
                 techStackImg: {
@@ -157,8 +157,8 @@ export const tabInfo: TabInfo[] = [
                 endDate: 'April 2019',
                 current: false,
                 tasks: [
-                    'Engineered full stack development projects with TypeScript, Angular, Redux, NodeJS, and Firebase.',
-                    'Managed and completed my own individual full stack development projects while also assisting UX and Design Department with any technical requirements.',
+                    'Engineered full-stack development projects with TypeScript, Angular, Redux, NodeJS, and Firebase.',
+                    'Managed and completed my own individual full-stack development projects while also assisting UX and Design Department with any technical requirements.',
                     'Attended daily scrums with fellow developers and followed an agile methodology.'
                 ],
                 techStackImg: {

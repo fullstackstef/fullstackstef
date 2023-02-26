@@ -29,9 +29,11 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href="https://www.linkedin.com/in/stefan-trivuncic-92034293/"
+              href="/files/stefantrivuncic_resume.pdf"
+              download="stefantrivuncic_resume.pdf"
+              title="stefantrivuncic_resume.pdf"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               className={styles.navBtn}
             >
               resume
