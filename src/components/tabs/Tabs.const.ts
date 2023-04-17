@@ -115,7 +115,6 @@ export const tabInfo: TabInfo[] = [
                 endDate: 'October 2020',
                 current: false,
                 tasks: [
-                    'Engineered WILBUR™, the progressive web application with TypeScript, React, Redux, Java, SpringBoot, and PostgreSQL.',
                     'Attended daily stand-up, contributed to product road mapping, and provided insight into short-term and long-term technical solutions.',
                     'I managed a team of six junior developers, provided peer coding sessions, one-on-one feedback sessions, and overall guidance.'
                 ],
