@@ -41,10 +41,9 @@ export const tabInfo: TabInfo[] = [
                 endDate: 'January 2023',
                 current: false,
                 tasks: [
-                    'On the Scope Squad to help ensure the internal administrative application made correct home renovation estimations that allowed for a smooth process from measurements to design.',
-                    'Engineering lead on the Labour V2 initiative to help reorganize how we categorize and display labour items for our contractors. This initiative spanned across Block’s admin tool, homeowner dashboard, and contractor mobile application.',
-                    'Engineered the admin web application, homeowner dashboard web application, contractor mobile application, and backend API with TypeScript, NextJS, React, React Native, Apollo GraphQL, NodeJS, and PostgreSQL.',
-                    'Led initiatives to help improve collaboration between engineers and product designers, which most recently was implementing Chromatic in the CircleCI pipeline to deploy our Storybook components.'
+                    'On the Scope Squad to help ensure the internal administrative application made correct home renovation estimations a smooth process from measurements to design.',
+                    'Engineering lead on the Labor V2 initiative to help reorganize how we categorize and display labour items for our contractors. This initiative spanned Block’s admin tool, homeowner dashboard, and the contractor/builder mobile application.',
+                    'Led initiatives to help improve collaboration between engineers and product designers, which most recently was implementing Chromatic in the CircleCI pipeline to deploy our Storybook components. '
                 ],
                 techStackImg: {
                     width: 541,
@@ -67,8 +66,8 @@ export const tabInfo: TabInfo[] = [
                 endDate: 'December 2021',
                 current: false,
                 tasks: [
-                    'On the Planned Marketplace team to assist event planners search, filter, and find the best suited vendors and venues for their next event.',
-                    'Engineered the events admin web application and marketplace with TypeScript, NextJS, React, Redux, Firebase, and NodeJS.'
+                    'On the Planned Marketplace team to assist event planners having the ability to search, filter, and find the best-suited vendors and venues for their next event.',
+                    'Attended daily stand-up, contributed to product road mapping, and provided insight into shortterm and long-term technical solutions.',
                 ],
                 techStackImg: {
                     width: 479,
@@ -91,8 +90,9 @@ export const tabInfo: TabInfo[] = [
                 endDate: 'January 2021',
                 current: false,
                 tasks: [
-                    'Taught BrainStation’s 12-week Web Development Diploma program.',
-                    'Delivered lectures and provide expert technical guidance to students who are building exciting projects using HTML, CSS, and JavaScript.'
+                    'Taught BrainStation’s twelve week Web Development Diploma program.',
+                    'Delivered lectures and provided expert technical guidance to students building exciting projects using HTML, CSS, and JavaScript.',
+                    'During the 12-week session, I provided guidance, consistent feedback, and assessment for all students to ensure they were on track to complete their diploma.'
                 ],
                 techStackImg: {
                     width: 330,
@@ -116,7 +116,8 @@ export const tabInfo: TabInfo[] = [
                 current: false,
                 tasks: [
                     'Engineered WILBUR™, the progressive web application with TypeScript, React, Redux, Java, SpringBoot, and PostgreSQL.',
-                    'Managed and mentored Junior developers.'
+                    'Attended daily stand-up, contributed to product road mapping, and provided insight into short-term and long-term technical solutions.',
+                    'I managed a team of six junior developers, provided peer coding sessions, one-on-one feedback sessions, and overall guidance.'
                 ],
                 techStackImg: {
                     width: 469,
@@ -139,9 +140,10 @@ export const tabInfo: TabInfo[] = [
                 endDate: 'August 2019',
                 current: false,
                 tasks: [
-                    'Ran daily scrums with fellow developers, managed and oversight on all development projects, and mentored junior developers.',
-                    'Managed and completed my own individual full-stack development projects while also assisting UX and Design Department with any technical requirements.',
-                    'Interacted with clients and helped them align their business goals with technical requirements.'
+                    'Internally managed junior developers, oversight all development-related projects, and ran daily scrums/followed agile methodology.',
+                    'Ran daily scrums with fellow developers, managed and oversight all development projects, and mentored junior developers.',
+                    'On a day-to-day basis, I would attend client meetings and stand-ups to provide context and updates on a given project while creating alignment for their business goals and deliverables.',
+                    'I managed and completed my own full-stack development projects while assisting UX and Design Department with any technical requirements.'
                 ],
                 techStackImg: {
                     width: 483,
@@ -157,9 +159,9 @@ export const tabInfo: TabInfo[] = [
                 endDate: 'April 2019',
                 current: false,
                 tasks: [
-                    'Engineered full-stack development projects with TypeScript, Angular, Redux, NodeJS, and Firebase.',
-                    'Managed and completed my own individual full-stack development projects while also assisting UX and Design Department with any technical requirements.',
-                    'Attended daily scrums with fellow developers and followed an agile methodology.'
+                    'I provided consulting and technical solutions to clients in the e-commerce, healthcare, and insurance space.',
+                    'Attended daily scrums with fellow developers/consultants, worked directly with product managers and owners, and ensured deliverables were on time.',
+                    'I managed and completed my own full-stack development while assisting UX and Design Department with any technical requirements.'
                 ],
                 techStackImg: {
                     width: 483,
