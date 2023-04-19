@@ -66,8 +66,8 @@ export const tabInfo: TabInfo[] = [
                 endDate: 'December 2021',
                 current: false,
                 tasks: [
-                    'On the Planned Marketplace team to assist event planners having the ability to search, filter, and find the best-suited vendors and venues for their next event.',
-                    'Attended daily stand-up, contributed to product road mapping, and provided insight into shortterm and long-term technical solutions.',
+                    'On the Planned Marketplace team to assist event planners with having the ability to search, filter, and find the best-suited vendors and venues for their next event.',
+                    'Attended daily stand-up, contributed to product road mapping, and provided insight into short-term and long-term technical solutions.',
                 ],
                 techStackImg: {
                     width: 479,
@@ -92,7 +92,7 @@ export const tabInfo: TabInfo[] = [
                 tasks: [
                     'Taught BrainStation’s twelve week Web Development Diploma program.',
                     'Delivered lectures and provided expert technical guidance to students building exciting projects using HTML, CSS, and JavaScript.',
-                    'During the 12-week session, I provided guidance, consistent feedback, and assessment for all students to ensure they were on track to complete their diploma.'
+                    'During the 12-week session, I provided guidance, consistent feedback, and assessment for all students to ensure they were on track to complete their diplomas.'
                 ],
                 techStackImg: {
                     width: 330,
@@ -142,7 +142,7 @@ export const tabInfo: TabInfo[] = [
                     'Internally managed junior developers, oversight all development-related projects, and ran daily scrums/followed agile methodology.',
                     'Ran daily scrums with fellow developers, managed and oversight all development projects, and mentored junior developers.',
                     'On a day-to-day basis, I would attend client meetings and stand-ups to provide context and updates on a given project while creating alignment for their business goals and deliverables.',
-                    'I managed and completed my own full-stack development projects while assisting UX and Design Department with any technical requirements.'
+                    'I managed a team of six junior developers and provided peer coding sessions, one-on-one feedback sessions, and overall guidance.'
                 ],
                 techStackImg: {
                     width: 483,
